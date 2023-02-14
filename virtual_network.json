@@ -1,0 +1,8 @@
+{
+    "status": "success",
+    "description": "Virtual network created successfully.",
+    "taskId": "30fb4b56-60e9-4397-9961-13f67537d592",
+    "taskStatusUrl": "/dna/intent/api/v1/task/30fb4b56-60e9-4397-9961-13f67537d592",
+    "executionStatusUrl": "/dna/intent/api/v1/dnacaap/management/execution-status/402becb3-cbef-4694-bc2c-06b906fc835c",
+    "executionId": "402becb3-cbef-4694-bc2c-06b906fc835c"
+}

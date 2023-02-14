@@ -1,0 +1,260 @@
+{
+    "id": "b0a005d4-8e37-45de-a5af-e4ed177e9256",
+    "instanceId": 24576565,
+    "instanceCreatedOn": 1610694971060,
+    "instanceVersion": 43,
+    "createTime": 1610694971047,
+    "deployed": false,
+    "isSeeded": false,
+    "isStale": false,
+    "lastUpdateTime": 1648713411229,
+    "name": "SDA-C9500-2.ebc.iseslab.cisco.com",
+    "namespace": "1dd64a83-2446-4472-9ee2-7cf2a15ce968",
+    "provisioningState": "DEFINED",
+    "resourceVersion": 43,
+    "targetIdList": [],
+    "type": "DeviceInfo",
+    "cfsChangeInfo": [],
+    "customProvisions": [],
+    "anchoredManagedSites": [],
+    "configs": [],
+    "managedSites": [],
+    "networkDeviceId": "dc354397-60b7-47aa-b9da-db5bd0ffecd1",
+    "primaryManagedSites": [],
+    "profileId": "0cb01681-f8f5-44e3-bd46-e5f88ac2e8e3",
+    "profileVersion": "2",
+    "rlanList": [],
+    "roles": [
+        "MAPSERVER",
+        "BORDERNODE"
+    ],
+    "saveWanConnectivityDetailsOnly": false,
+    "secondaryManagedSites": [],
+    "siteId": "76361868-484f-40da-9c7e-74ee6f5adcc7",
+    "tertiaryManagedSites": [],
+    "akcSettingsCfs": [],
+    "deviceInterfaceGroupInfo": [],
+    "deviceInterfaceInfo": [],
+    "deviceInterfaceInfoContainer": {
+        "idRef": "b1ed355d-56bf-4064-8fa6-63074bc7b45f"
+    },
+    "deviceSettings": {
+        "id": "9979386a-fd31-40ef-bfed-3a5581a0a6c5",
+        "instanceId": 24992972,
+        "instanceCreatedOn": 1610802648620,
+        "instanceUpdatedOn": 1610802648620,
+        "instanceVersion": 25,
+        "affinityIdX": "",
+        "affinityIdY": "",
+        "connectedTo": [],
+        "cpu": 0,
+        "dhcpEnabled": true,
+        "externalConnectivityIpPool": "d13af1ed-2f68-4548-bff6-119f337fa62b",
+        "externalDomainRoutingProtocol": "BGP",
+        "internalDomainProtocolNotation": "ASDOT",
+        "internalDomainProtocolNumber": "65534",
+        "memory": 0,
+        "nodeType": [
+            "EXTERNAL"
+        ],
+        "priority": 10,
+        "storage": 0,
+        "extConnectivitySettings": [
+            {
+                "id": "8dc32f54-62b1-4697-af60-09d3676a738d",
+                "instanceId": 24993977,
+                "instanceCreatedOn": 1610802648620,
+                "instanceUpdatedOn": 1610802648620,
+                "instanceVersion": 20,
+                "description": "L3 Handoff",
+                "externalDomainProtocolNotation": "ASDOT",
+                "externalDomainProtocolNumber": "65535",
+                "interfaceUuid": "TenGigabitEthernet1/0/2",
+                "policyPropagationEnabled": false,
+                "policySgtTag": 0,
+                "l2Handoff": [],
+                "l3Handoff": [
+                    {
+                        "id": "dcde2f8c-0d8d-414e-bb52-099ed4d3a2b2",
+                        "instanceId": 24994991,
+                        "instanceCreatedOn": 1610802648620,
+                        "instanceVersion": 20,
+                        "localIpAddress": "10.7.251.13/30",
+                        "remoteIpAddress": "10.7.251.14/30",
+                        "remoteIpAddresses": [
+                            "10.7.251.14/30"
+                        ],
+                        "vlanId": 3004,
+                        "virtualNetwork": {
+                            "idRef": "e31ec7dd-c2b1-4113-a424-4190bcb6ecfa"
+                        },
+                        "displayName": "24994991"
+                    },
+                    {
+                        "id": "1c1c3bc4-cab7-484b-82e0-5aa15c636d40",
+                        "instanceId": 24994993,
+                        "instanceCreatedOn": 1610802648620,
+                        "instanceVersion": 20,
+                        "localIpAddress": "10.7.251.17/30",
+                        "remoteIpAddress": "10.7.251.18/30",
+                        "remoteIpAddresses": [
+                            "10.7.251.18/30"
+                        ],
+                        "vlanId": 3008,
+                        "virtualNetwork": {
+                            "idRef": "d6e45074-81e2-4eb8-89b8-61187f4486ce"
+                        },
+                        "displayName": "24994993"
+                    },
+                    {
+                        "id": "d2117a8c-ba8b-413d-aae2-1968ffc9b096",
+                        "instanceId": 24994992,
+                        "instanceCreatedOn": 1610802648620,
+                        "instanceVersion": 20,
+                        "localIpAddress": "10.7.251.21/30",
+                        "remoteIpAddress": "10.7.251.22/30",
+                        "remoteIpAddresses": [
+                            "10.7.251.22/30"
+                        ],
+                        "vlanId": 3009,
+                        "virtualNetwork": {
+                            "idRef": "68e98f3f-f1b1-4ce9-92ec-43966da824bd"
+                        },
+                        "displayName": "24994992"
+                    }
+                ],
+                "displayName": "0"
+            }
+        ],
+        "internetVn": [],
+        "displayName": "0"
+    },
+    "deviceWlanSchedulerInfo": [],
+    "migrationStatus": [],
+    "networkWideSettings": {
+        "id": "18f827c1-398c-494b-bffc-3d9b42d1bafb",
+        "instanceId": 24726704,
+        "instanceCreatedOn": 1610694971060,
+        "instanceUpdatedOn": 1610694971060,
+        "instanceVersion": 12,
+        "aaa": [
+            {
+                "id": "b90e0213-2038-43b8-bb5b-bdb106ca71d1",
+                "acctPort": 1813,
+                "authPort": 1812,
+                "authenticationType": [
+                    "NETWORKAUTH"
+                ],
+                "ipAddress": {
+                    "id": "eb85e3e4-78c4-4d00-b568-fc80e668c7b8",
+                    "address": "172.30.101.11"
+                },
+                "isIseEnabled": true,
+                "panIpAddress": [
+                    "172.30.101.11"
+                ],
+                "panSharedKey": "$5$X8Gu0NjMCNbyhpAhuBE3JJf1pf+A3/zSOT3OFwJ75H3404dlw9EZIHtR0xWhBe6X5QhtfUNj3YBBtaf6pQuSfdKVdDWIAu2C",
+                "protocol": "RADIUS",
+                "retries": "1",
+                "serverPriority": 1,
+                "sharedKey": "$5$xZD7fS4GLEjXiRCiptmp/wF48AQicz5Nf/1RephipBp67jeOLyqjPoHkqmKjiVx77UtB4o7fXFjD+b3thuxM1FIw5msJB0Kh",
+                "timeout": "10"
+            },
+            {
+                "id": "d627b03c-143c-4a24-a592-9ce15980142d",
+                "acctPort": 1813,
+                "authPort": 1812,
+                "authenticationType": [
+                    "CLIENTAUTH"
+                ],
+                "ipAddress": {
+                    "id": "357cc841-03a5-491d-bc3a-f1e8072d989a",
+                    "address": "172.30.101.11"
+                },
+                "isIseEnabled": true,
+                "panIpAddress": [
+                    "172.30.101.11"
+                ],
+                "panSharedKey": "$5$sEsQ0RGDJZsnp6xCrXMsJ3zK5irzQjJJrDgBbn5OSxfd6SgD3zd0UoxU61McPDX3UxTSrRTpttkGHPXe2/gVvDjzSFRtEgNW",
+                "protocol": "RADIUS",
+                "retries": "1",
+                "serverPriority": 1,
+                "sharedKey": "$5$toBMd2ia69MTBAOqy3E7ikbhUA4GbZ7nzcG3Ny631UT0lRtR+JW7gfy8ImGBPxKaPAuBenJ0dLR1SR6oCHbjBYUnGVzYbxnv",
+                "timeout": "10"
+            }
+        ],
+        "acl": [],
+        "apjoinprofile": [],
+        "cmx": [],
+        "dhcp": [
+            {
+                "id": "0eed6c1c-5b4d-4fa8-9f55-f95db98bd447",
+                "ipAddress": {
+                    "id": "f20ff56b-ae7b-49c8-b451-023093d8a063",
+                    "address": "10.7.250.200"
+                },
+                "serverPriority": 0
+            }
+        ],
+        "dns": [
+            {
+                "id": "cec8d23e-5e0b-4d86-88b1-6c74e8ac1ec6",
+                "domainName": "ebc.iseslab.cisco.com",
+                "ip": {
+                    "id": "afd58904-14b4-4a93-98ef-22909dbcd8c2",
+                    "address": "172.30.101.191"
+                },
+                "secondaryIp": {
+                    "id": "322c91d1-cc74-426b-9043-7e59024e3457",
+                    "address": "192.168.28.10"
+                }
+            }
+        ],
+        "ipdtEnabled": true,
+        "isBridgeModeVm": false,
+        "ldap": [],
+        "mesh": [],
+        "nativeVlan": [],
+        "netflow": [],
+        "ntp": [
+            {
+                "id": "d484daa4-9a4f-4c8f-9e43-5676b91f80cf",
+                "ipAddress": {
+                    "id": "c1b07374-f5c1-4718-85fd-a649fae1a11a",
+                    "address": "162.159.200.123"
+                }
+            },
+            {
+                "id": "85e765a2-853b-44aa-a57d-51835e58e5b4",
+                "ipAddress": {
+                    "id": "7f765feb-da7f-4927-8511-f03794673178",
+                    "address": "91.228.108.123"
+                }
+            }
+        ],
+        "snmp": [],
+        "syslogs": [],
+        "displayName": "0"
+    },
+    "otherDevice": [],
+    "rlan": [],
+    "transitNetworks": [
+        {
+            "idRef": "d55ddb90-1a54-42d9-b943-cb75dd25b427"
+        },
+        {
+            "idRef": "81555dce-a8c2-41ef-844c-013311a1e532"
+        }
+    ],
+    "virtualNetwork": [],
+    "wirelessAAAPolicy": [],
+    "wlan": [],
+    "displayName": "f5ba231e[dc354397-60b7-47aa-b9da-db5bd0ffecd1]",
+    "deviceManagementIpAddress": "10.7.250.202",
+    "deviceName": "SDA-C9500-2.ebc.iseslab.cisco.com",
+    "siteNameHierarchy": "Global/EMEAR/Israel/NTN01/Floor 2",
+    "fabricSiteNameHierarchy": "Global/EMEAR/Israel/NTN01",
+    "status": "success",
+    "description": "Border device info retrieved successfully from sda fabric.",
+    "executionId": "aff72d18-b326-4384-afba-f779e00587a3"
+}
